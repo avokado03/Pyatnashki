@@ -63,6 +63,16 @@ namespace Pyatnashki.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1614642322_37_p_fon_zvezdnoe_nebo_dlya_fotoshopa_71 {
+            get {
+                object obj = ResourceManager.GetObject("1614642322_37-p-fon-zvezdnoe-nebo-dlya-fotoshopa-71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_part_001 {
             get {
                 object obj = ResourceManager.GetObject("image_part_001", resourceCulture);
@@ -206,6 +216,26 @@ namespace Pyatnashki.Properties {
         internal static System.Drawing.Bitmap image_part_015 {
             get {
                 object obj = ResourceManager.GetObject("image_part_015", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LightSword {
+            get {
+                object obj = ResourceManager.GetObject("LightSword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LightSwordOff {
+            get {
+                object obj = ResourceManager.GetObject("LightSwordOff", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

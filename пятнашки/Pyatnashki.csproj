@@ -132,6 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="r2d2_87090.ico" />
+    <None Include="Resources\LightSwordOff.png" />
+    <None Include="Resources\LightSword.png" />
+    <None Include="Resources\1614642322_37-p-fon-zvezdnoe-nebo-dlya-fotoshopa-71.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
