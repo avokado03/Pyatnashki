@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace пятнашки
+namespace Pyatnashki
 { 
     /// <summary>
     /// Класс с методами для управления игрой
