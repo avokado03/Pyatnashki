@@ -5,6 +5,9 @@ using Pyatnashki.Properties;
 
 namespace Pyatnashki
 {
+    /// <summary>
+    /// Главная форма приложения
+    /// </summary>
     public partial class MainForm : Form
     {
         private Game game;
@@ -15,6 +18,9 @@ namespace Pyatnashki
             menu.Renderer = new MenuRenderer();
         }
 
+        /// <summary>
+        /// Завершение игры
+        /// </summary>
         private void button15_Click(object sender, EventArgs e)
         {
             int position = Convert.ToInt16(((Button)sender).Tag);
@@ -27,6 +33,12 @@ namespace Pyatnashki
                 StartGame();
             }
         }
+
+        /// <summary>
+        /// Выбор кнопки по позиции
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
         private Button GetButton(int position)
         {
             string buttonName = "button" + position.ToString();
@@ -34,6 +46,9 @@ namespace Pyatnashki
             return (Button)control;
         }
 
+        /// <summary>
+        /// Отрисовка формы на старте
+        /// </summary>
         private void menuStart_Click(object sender, EventArgs e)
         {
             menuStart.Image = Resources.LightSword;
@@ -49,6 +64,9 @@ namespace Pyatnashki
             tablePanel.Visible = true;
         }
 
+        /// <summary>
+        /// Запуск игры
+        /// </summary>
         private void StartGame()
         {
             game.Start();
@@ -57,6 +75,9 @@ namespace Pyatnashki
             RefreshButtons();
         }
 
+        /// <summary>
+        /// Обновление состояния кнопок
+        /// </summary>
         private void RefreshButtons()
         {
             for (int position = 0; position < 16; position++)
