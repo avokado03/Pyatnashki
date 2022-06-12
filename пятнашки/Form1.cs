@@ -22,9 +22,9 @@ namespace пятнашки
         private void button15_Click(object sender, EventArgs e)
         {
             int position = Convert.ToInt16(((Button)sender).Tag);
-            game.shift(position);
+            game.Shift(position);
             refresh();
-            if (game.chec_number())
+            if (game.CheckNumber())
             {
                 MessageBox.Show("ПОБЕДА!");
                 start_game();
@@ -63,16 +63,16 @@ namespace пятнашки
         }
         private void start_game()
         {
-            game.start();
+            game.Start();
             for (int j = 0; j < 100; j++)
-                game.shift_random();
+                game.ShiftRandom();
             refresh();
         }
         private void refresh()
         {
             for (int position = 0; position < 16; position++)
             {
-                int nr = game.get_number(position);
+                int nr = game.GetNumber(position);
                 button(position).Text = nr.ToString(); ;
                 button(position).Visible = (nr > 0);
             }
