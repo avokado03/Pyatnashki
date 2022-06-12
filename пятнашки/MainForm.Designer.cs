@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tablePanel = new System.Windows.Forms.TableLayoutPanel();
             this.button15 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -103,7 +104,7 @@
             // 
             // button14
             // 
-            this.button14.BackgroundImage = global::пятнашки.Properties.Resources.image_part_015;
+            this.button14.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_015;
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -118,7 +119,7 @@
             // 
             // button13
             // 
-            this.button13.BackgroundImage = global::пятнашки.Properties.Resources.image_part_014;
+            this.button13.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_014;
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -133,7 +134,7 @@
             // 
             // button12
             // 
-            this.button12.BackgroundImage = global::пятнашки.Properties.Resources.image_part_013;
+            this.button12.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_013;
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button12.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -148,7 +149,7 @@
             // 
             // button11
             // 
-            this.button11.BackgroundImage = global::пятнашки.Properties.Resources.image_part_012;
+            this.button11.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_012;
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -163,7 +164,7 @@
             // 
             // button10
             // 
-            this.button10.BackgroundImage = global::пятнашки.Properties.Resources.image_part_011;
+            this.button10.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_011;
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -178,7 +179,7 @@
             // 
             // button9
             // 
-            this.button9.BackgroundImage = global::пятнашки.Properties.Resources.image_part_010;
+            this.button9.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_010;
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -194,7 +195,7 @@
             // 
             // button8
             // 
-            this.button8.BackgroundImage = global::пятнашки.Properties.Resources.image_part_009;
+            this.button8.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_009;
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -209,7 +210,7 @@
             // 
             // button7
             // 
-            this.button7.BackgroundImage = global::пятнашки.Properties.Resources.image_part_008;
+            this.button7.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_008;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -224,7 +225,7 @@
             // 
             // button6
             // 
-            this.button6.BackgroundImage = global::пятнашки.Properties.Resources.image_part_007;
+            this.button6.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_007;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -239,7 +240,7 @@
             // 
             // button5
             // 
-            this.button5.BackgroundImage = global::пятнашки.Properties.Resources.image_part_006;
+            this.button5.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_006;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -254,7 +255,7 @@
             // 
             // button4
             // 
-            this.button4.BackgroundImage = global::пятнашки.Properties.Resources.image_part_005;
+            this.button4.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_005;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -269,7 +270,7 @@
             // 
             // button3
             // 
-            this.button3.BackgroundImage = global::пятнашки.Properties.Resources.image_part_004;
+            this.button3.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_004;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -284,7 +285,7 @@
             // 
             // button2
             // 
-            this.button2.BackgroundImage = global::пятнашки.Properties.Resources.image_part_003;
+            this.button2.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_003;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -299,7 +300,7 @@
             // 
             // button1
             // 
-            this.button1.BackgroundImage = global::пятнашки.Properties.Resources.image_part_002;
+            this.button1.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_002;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -314,7 +315,7 @@
             // 
             // button0
             // 
-            this.button0.BackgroundImage = global::пятнашки.Properties.Resources.image_part_001;
+            this.button0.BackgroundImage = global::Pyatnashki.Properties.Resources.image_part_001;
             this.button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button0.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -352,6 +353,7 @@
             this.ClientSize = new System.Drawing.Size(799, 550);
             this.Controls.Add(this.tablePanel);
             this.Controls.Add(this.menu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menu;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";

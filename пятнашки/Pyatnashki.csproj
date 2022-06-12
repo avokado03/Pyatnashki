@@ -7,8 +7,8 @@
     <ProjectGuid>{CB60C44B-448E-4A73-92EE-C0E0D500B858}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>пятнашки</RootNamespace>
-    <AssemblyName>пятнашки</AssemblyName>
+    <RootNamespace>Pyatnashki</RootNamespace>
+    <AssemblyName>Pyatnashki</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>r2d2_87090.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -126,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image_part_015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="r2d2_87090.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
